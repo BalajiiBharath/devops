@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent SLAVE_NB3
 
     stages {
         stage('Build') {
